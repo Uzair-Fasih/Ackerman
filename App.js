@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Dimensions, StatusBar } from 'react-native'
-import { Font } from 'expo'
+import * as Font from 'expo-font'
 import Header from './src/components/Widgets/Header'
 import StackNavigation from './src/navigation/StackNavigator'
 

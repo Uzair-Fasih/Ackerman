@@ -15,4 +15,4 @@ Ackerman is a mobile app that is essentially a wrapper for the HorribleSubs webs
 ## Releases
 The app has been tested on Android 9 (*Android Pie*) and above, but should work on recent android versions
 
-For releases please visit the releases page
+<b>*This page is being updated. Please try looking here later*</b>
