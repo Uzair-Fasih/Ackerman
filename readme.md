@@ -10,11 +10,11 @@ The anime repository for your smartphone
 
 ## What is Ackerman?
 
-Ackerman is a mobile app that is essentially a wrapper for the HorribleSubs website. It internally scrapes data form the HorribleSubs website and also make calls to their internal API. <b>This project is purely for education purposes with no intent on copyright infringement intended. </b> The app hosts no copyrighted material and the content of the application is hosted elsewhere unrelated to this project or any of its contributors
+Ackerman is a mobile app that is essentially a wrapper for the HorribleSubs website. It internally scrapes data form HorribleSubs and makes calls to their internal API. <b>This project is purely for education purposes with no copyright infringement intended. </b> The app hosts no copyrighted material and the content of the application is hosted elsewhere unrelated to this project or any of its contributors
 
 An earlier version of this app is available as a release.
 
-A new verison of this application is currently in development.
+A new verison of this application is currently in development, which does away with reliance on HorribleSubs and instead uses AniList.co as it's main source for content.
 A preview of this application build is below.
 
 <h5 align="center" >🚧 WORK IN PROGRESS 🚧</h5>
