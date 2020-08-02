@@ -1,7 +1,7 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { View, Text } from "react-native";
 
-export class Home extends React.Component {
+export default class Show extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -9,7 +9,7 @@ export class Home extends React.Component {
   render() {
     return (
       <View>
-        <Text>Hello World</Text>
+        <Text>Show</Text>
       </View>
     );
   }

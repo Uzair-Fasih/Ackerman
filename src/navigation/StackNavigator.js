@@ -1,11 +1,15 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
+import BottomTabNavigator from "./bottomTabNavigator";
+import Show from "../screens/nShow";
 
-import Showcase from '../screens/Showcase';
-import TopBarNavigation from './TopBarNavigator';
+const Stack = createStackNavigator();
 
-const StackNavigator = createStackNavigator({
-  TopBarNavigation: {screen: TopBarNavigation, navigationOptions:{ header: null }},
-  Showcase: {screen: Showcase, navigationOptions: { header: null }},
-})
-
-export default createAppContainer(StackNavigator);
+export default function StackNavigator() {
+  return (
+    <Stack.Navigator headerMode="none">
+      <Stack.Screen name="BaseNavigator" component={BottomTabNavigator} />
+      <Stack.Screen name="Show" component={Show} />
+    </Stack.Navigator>
+  );
+}
