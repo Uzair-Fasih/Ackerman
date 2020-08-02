@@ -3,9 +3,10 @@
 <p align="center" >
 The anime repository for your smartphone 
 </p>
+<br/>
 <p align="center" >
-<img src="https://img.shields.io/badge/Version-0.0.1-blueviolet?style=flat-square" height="20">
-<img src="https://img.shields.io/badge/Build-Passing-success?style=flat-square" height="20">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/built-for-android.svg" />
 </p>
 
 ## What is Ackerman?
