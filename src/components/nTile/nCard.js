@@ -10,7 +10,7 @@ const Card = ({ item, width, navigation }) => {
       underlayColor="rgba(0, 0, 0, .1)"
       onPress={() => {
         navigation.navigate("Show", {
-          id: 86,
+          id: item.id,
         });
       }}
     >
@@ -22,14 +22,15 @@ const Card = ({ item, width, navigation }) => {
             { width: width - 20, height: width - 20 },
           ]}
           source={{
-            uri: item.thumb,
+            uri: item.thumbnail,
           }}
         />
-        <Text style={styles.genre}>{item.genre}</Text>
 
         <View
           style={{
             flexGrow: 1,
+            paddingTop: 20,
+            paddingBottom: 10,
           }}
         >
           <Text style={styles.title}>
@@ -44,6 +45,7 @@ const Card = ({ item, width, navigation }) => {
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
+            paddingBottom: 10,
           }}
         >
           <Entypo name="heart" size={17} color="#00dc64" />
@@ -78,7 +80,7 @@ const styles = {
   },
   genre: {
     fontSize: 14,
-    color: "#888",
+    color: "#111",
     marginBottom: 5,
     marginTop: 20,
   },

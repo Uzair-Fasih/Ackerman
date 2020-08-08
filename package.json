@@ -6,7 +6,7 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "emulate_phone": "cd C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\tools && emulator -avd  Nexus_5X_API_27",
-    "emulate_tablet": "cd C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\tools && emulator -avd  Nexus_5X_API_27"
+    "emulate_tablet": "cd C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\emulator && emulator -avd  Nexus_9_API_29"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",

@@ -20,7 +20,7 @@ const styles = {
 
 const Competition = (props) => {
   const [currentTitle, changeTitle] = useState(
-    props.lists.length > 0 ? props.lists[0].list_title : "Error"
+    props.lists.length > 0 ? props.lists[0].title : "🤷"
   );
 
   return (
@@ -36,13 +36,14 @@ const Competition = (props) => {
         onScroll={(event) => {
           const offsetX = event.nativeEvent.contentOffset.x;
           const index = Math.floor(offsetX / (width * 0.75));
-          if (index >= 0 && currentTitle != props.lists[index].list_title) {
-            changeTitle(props.lists[index].list_title);
+          if (index >= 0 && currentTitle != props.lists[index].title) {
+            changeTitle(props.lists[index].title);
           }
         }}
       >
         {props.lists.map((x, index) => (
           <List
+            navigation={props.navigation}
             list={x.list}
             listIndex={index + 1}
             isLast={props.lists.length - 1 == index}

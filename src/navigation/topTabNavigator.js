@@ -47,6 +47,7 @@ function MyTabBar({ state, descriptors, navigation, position }) {
             : route.name;
 
         const isFocused = state.index === index;
+
         const onPress = () => {
           const event = navigation.emit({
             type: "tabPress",
@@ -65,6 +66,7 @@ function MyTabBar({ state, descriptors, navigation, position }) {
             target: route.key,
           });
         };
+
         return (
           <TouchableOpacity
             accessibilityRole="button"
@@ -97,12 +99,22 @@ function MyTabBar({ state, descriptors, navigation, position }) {
   );
 }
 
+function getToday() {
+  const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  const d = new Date().getDay();
+  return days[d];
+}
+
 import Daily from "../screens/nAiring/Daily";
 const Tab = createMaterialTopTabNavigator();
 
 export default function topTabNavigator() {
   return (
-    <Tab.Navigator tabBar={(props) => <MyTabBar {...props} />}>
+    <Tab.Navigator
+      initialRouteName={getToday()}
+      lazy={true}
+      tabBar={(props) => <MyTabBar {...props} />}
+    >
       <Tab.Screen name="MON" component={Daily} />
       <Tab.Screen name="TUE" component={Daily} />
       <Tab.Screen name="WED" component={Daily} />
@@ -110,7 +122,8 @@ export default function topTabNavigator() {
       <Tab.Screen name="FRI" component={Daily} />
       <Tab.Screen name="SAT" component={Daily} />
       <Tab.Screen name="SUN" component={Daily} />
-      <Tab.Screen name="COMPLETED" component={Daily} />
     </Tab.Navigator>
   );
 }
+
+// <Tab.Screen name="COMPLETED" component={Daily} />

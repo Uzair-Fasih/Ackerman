@@ -9,6 +9,45 @@ import {
 
 const { width } = Dimensions.get("window");
 
+export default function Entry({ item, rank, isLast, navigation }) {
+  return (
+    <TouchableHighlight
+      style={[styles.Container, { maxWidth: !isLast ? width : width * 0.75 }]}
+      activeOpacity={1}
+      underlayColor="rgba(0, 0, 0, .1)"
+      onPress={() => {
+        navigation.navigate("Show", {
+          id: item.id,
+        });
+      }}
+    >
+      <View style={[styles.Entry, { width: !isLast ? width : width * 0.75 }]}>
+        <Text style={styles.ranking}>{rank}</Text>
+        <ImageBackground
+          style={styles.thumbnail}
+          imageStyle={styles.background}
+          source={{
+            uri: item.thumbnail,
+          }}
+        />
+        <View
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Text style={styles.title}>
+            {item.title.length > 35
+              ? item.title.substring(0, 32) + "..."
+              : item.title}
+          </Text>
+          <Text style={styles.genre}>{item.genre}</Text>
+        </View>
+      </View>
+    </TouchableHighlight>
+  );
+}
+
 const styles = {
   Container: {
     zIndex: 2,
@@ -47,40 +86,3 @@ const styles = {
     color: "#AAA",
   },
 };
-
-const Entry = ({ item, rank, isLast }) => {
-  return (
-    <TouchableHighlight
-      style={[styles.Container, { maxWidth: !isLast ? width : width * 0.75 }]}
-      activeOpacity={1}
-      underlayColor="rgba(0, 0, 0, .1)"
-      onPress={() => {}}
-    >
-      <View style={[styles.Entry, { width: !isLast ? width : width * 0.75 }]}>
-        <Text style={styles.ranking}>{rank}</Text>
-        <ImageBackground
-          style={styles.thumbnail}
-          imageStyle={styles.background}
-          source={{
-            uri: item.thumb,
-          }}
-        />
-        <View
-          style={{
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <Text style={styles.title}>
-            {item.title.length > 35
-              ? item.title.substring(0, 32) + "..."
-              : item.title}
-          </Text>
-          <Text style={styles.genre}>{item.genre}</Text>
-        </View>
-      </View>
-    </TouchableHighlight>
-  );
-};
-
-export default Entry;

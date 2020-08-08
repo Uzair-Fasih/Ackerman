@@ -2,32 +2,35 @@ import React from "react";
 import { View, Text, ImageBackground, TouchableHighlight } from "react-native";
 import { Entypo } from "@expo/vector-icons";
 
-const Tile = ({ item, width }) => {
+const Card = ({ item, width, navigation }) => {
   return (
     <TouchableHighlight
-      style={[styles.Container, { width: width ? width - 10 : 105 }]}
+      style={[styles.Container, { width: width - 10 }]}
       activeOpacity={1}
       underlayColor="rgba(0, 0, 0, .1)"
-      onPress={() => {}}
+      onPress={() => {
+        navigation.navigate("Show", {
+          id: item.id,
+        });
+      }}
     >
-      <View style={[styles.Tile, { width: width ? width - 20 : 95 }]}>
+      <View style={[styles.Card, { width: width - 20 }]}>
         <ImageBackground
           style={styles.image}
           imageStyle={[
             styles.background,
-            { width: width ? width - 20 : 95, height: width ? width - 20 : 95 },
+            { width: width - 20, height: width - 20 },
           ]}
           source={{
-            uri: item.thumb,
+            uri: item.thumbnail,
           }}
         />
-        <Text style={[styles.genre, { marginTop: width ? 20 : 0 }]}>
-          {item.genre}
-        </Text>
 
         <View
           style={{
             flexGrow: 1,
+            paddingTop: 20,
+            paddingBottom: 10,
           }}
         >
           <Text style={styles.title}>
@@ -37,35 +40,31 @@ const Tile = ({ item, width }) => {
           </Text>
         </View>
 
-        {item.studio ? (
-          <Text style={styles.studio}>{item.studio}</Text>
-        ) : (
-          <View
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-              marginBottom: 10,
-            }}
-          >
-            <Entypo name="heart" size={17} color="#00dc64" />
-            <Text style={styles.score}>{item.score}</Text>
-          </View>
-        )}
+        <View
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            paddingBottom: 10,
+          }}
+        >
+          <Entypo name="heart" size={17} color="#00dc64" />
+          <Text style={styles.score}>{item.score}</Text>
+        </View>
       </View>
     </TouchableHighlight>
   );
 };
 
-export default Tile;
+export default Card;
 
 const styles = {
   Container: {
     width: 105,
-    paddingHorizontal: 5,
+    padding: 5,
     borderRadius: 5,
   },
-  Tile: {
+  Card: {
     display: "flex",
     width: 95,
     flexGrow: 1,
@@ -81,8 +80,9 @@ const styles = {
   },
   genre: {
     fontSize: 14,
-    color: "#888",
+    color: "#111",
     marginBottom: 5,
+    marginTop: 20,
   },
   title: {
     fontSize: 15,

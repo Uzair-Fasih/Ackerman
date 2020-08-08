@@ -11,9 +11,10 @@ const List = (props) => {
         width: props.isLast ? width : width * 0.75,
       }}
     >
-      {props.list.map((x, index) => (
+      {props.list.map((show, index) => (
         <Entry
-          item={x}
+          item={show}
+          navigation={props.navigation}
           key={props.listIndex + index}
           rank={index + 1}
           isLast={props.isLast}

@@ -1,51 +1,48 @@
 import React from "react";
-import { ScrollView, Dimensions, View } from "react-native";
+import { ScrollView } from "react-native";
 import { connect } from "react-redux";
 
+import {
+  Carousel,
+  Collection,
+  Category,
+  Competition,
+  Footer,
+} from "components";
 import Skeleton from "./Skeleton";
-import Carousel from "../../components/nCarousel";
-import Collection from "../../components/nCollection";
-import Category from "../../components/nCategory";
-import Competition from "../../components/nCompetition";
-import Footer from "../../components/nFooter";
-
-const { width, height } = Dimensions.get("window");
 
 class Showcase extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     if (!this.props.store.isLoaded) {
-      const fetchDate = this.props.fetchData;
-      setTimeout(function () {
-        fetchDate();
-      }, 1000);
+      const fetchData = this.props.fetchData;
+      fetchData();
     }
   }
 
   render() {
     if (!this.props.store.isLoaded) {
-      return (
-        <View style={{ height, width }}>
-          <Skeleton />
-        </View>
-      );
+      return <Skeleton />;
     } else {
       return (
         <ScrollView>
-          <Carousel images={this.props.store.images} />
+          <Carousel
+            HeroGallery={this.props.store.HeroGallery}
+            navigation={this.props.navigation}
+          />
           <Collection
-            lists={this.props.store.trending}
+            lists={this.props.store.Trending}
             title={"Trending Now"}
+            navigation={this.props.navigation}
           />
           <Category
-            lists={this.props.store.top6AiringToday}
+            lists={this.props.store.TopAiringToday}
             title={"Airing Now"}
             navigation={this.props.navigation}
           />
-          <Competition lists={this.props.store.top} />
+          <Competition
+            lists={this.props.store.TopCategories}
+            navigation={this.props.navigation}
+          />
           <Footer />
         </ScrollView>
       );
@@ -56,6 +53,7 @@ class Showcase extends React.Component {
 function mapStateToProps(state) {
   return { store: state.showcase };
 }
+
 function mapDispatchToProps(dispatch) {
   return {
     fetchData: () => dispatch({ type: "FETCH_SHOWCASE_DATA", dispatch }),

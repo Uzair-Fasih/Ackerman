@@ -1,0 +1,303 @@
+{
+  "HeroGallery": [
+    {
+      "id": 115113,
+      "title": "Uzaki-chan wa Asobitai!",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115113-wIWyzBlDR5Kt.jpg"
+    },
+    {
+      "id": 108632,
+      "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108632-pJU8fOHU51ce.jpg"
+    },
+    {
+      "id": 108489,
+      "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108489-z4DheppQdxo4.jpg"
+    },
+    {
+      "id": 116006,
+      "title": "THE GOD OF HIGH SCHOOL",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116006-e7ZL1RJnabp1.jpg"
+    },
+    {
+      "id": 110353,
+      "title": "Deca-Dence",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110353-ZKkmemQSFP7L.jpg"
+    },
+    {
+      "id": 113813,
+      "title": "Kanojo, Okarishimasu",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113813-Al8VofQuNQHV.jpg"
+    },
+    {
+      "id": 114236,
+      "title": "Enen no Shouboutai: Ni no Shou",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114236-6nbw38bHeXYQ.jpg"
+    },
+    {
+      "id": 112301,
+      "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
+      "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112301-e50SRjhGDGUu.jpg"
+    }
+  ],
+  "Trending": [
+    {
+      "id": 115113,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b130665-eb65zDu3doTn.jpg",
+      "genre": "Comedy",
+      "title": "Uzaki-chan wa Asobitai!",
+      "studio": "FUNimation Entertainment"
+    },
+    {
+      "id": 108632,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b88572-v2KimyNuU4XZ.jpg",
+      "genre": "Action",
+      "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+      "studio": "White Fox"
+    },
+    {
+      "id": 108489,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b67065-dvBJoFzvk2eo.png",
+      "genre": "Comedy",
+      "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan",
+      "studio": "feel."
+    },
+    {
+      "id": 116006,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b124136-CgcQbeqQFocf.jpg",
+      "genre": "Action",
+      "title": "THE GOD OF HIGH SCHOOL",
+      "studio": "MAPPA"
+    },
+    {
+      "id": 110353,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b170191-u0z097eOMOHR.png",
+      "genre": "Action",
+      "title": "Deca-Dence",
+      "studio": "FUNimation Entertainment"
+    },
+    {
+      "id": 113813,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b128106-1Gf64rjTWY8w.png",
+      "genre": "Comedy",
+      "title": "Kanojo, Okarishimasu",
+      "studio": "TMS Entertainment"
+    },
+    {
+      "id": 114236,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/n130716-5564jUgQxK9a.png",
+      "genre": "Action",
+      "title": "Enen no Shouboutai: Ni no Shou",
+      "studio": "David Production"
+    },
+    {
+      "id": 112301,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b138595-KIN4IyJaUYhI.png",
+      "genre": "Action",
+      "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
+      "studio": "SILVER LINK."
+    },
+    {
+      "id": 112803,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b144449-7nS5elzMlXXA.png",
+      "genre": "Action",
+      "title": "No Guns Life 2",
+      "studio": "MADHOUSE"
+    },
+    {
+      "id": 112818,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-oZUg0v5iWJIS.jpg",
+      "genre": "Action",
+      "title": "Dokyuu Hentai HxEros",
+      "studio": "Aniplex of America"
+    },
+    {
+      "id": 111965,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b164452-P1A0bR0RiNIE.png",
+      "genre": "Comedy",
+      "title": "Peter Grill to Kenja no Jikan",
+      "studio": "Sentai Filmworks"
+    },
+    {
+      "id": 114308,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b36828-5qA8PW4PXtfw.png",
+      "genre": "Action",
+      "title": "Sword Art Online: Alicization - War of Underworld Part 2",
+      "studio": "A-1 Pictures"
+    },
+    {
+      "id": 110371,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b141887-Ms3TSUtplLqB.jpg",
+      "genre": "Drama",
+      "title": "Koi to Producer: EVOL×LOVE",
+      "studio": "MAPPA"
+    },
+    {
+      "id": 113286,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b151235-rKNWP2sMLxEq.png",
+      "genre": "Comedy",
+      "title": "Monster Musume no Oisha-san",
+      "studio": "Arvo Animation"
+    },
+    {
+      "id": 112357,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b174141-PtD4wL27bphZ.png",
+      "genre": "Drama",
+      "title": "Nihon Chinbotsu: 2020",
+      "studio": "Science SARU"
+    },
+    {
+      "id": 110446,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b141825-jnDxOOFKcoJu.png",
+      "genre": "Action",
+      "title": "Gibiate",
+      "studio": "Crunchyroll"
+    },
+    {
+      "id": 120700,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b88572-v2KimyNuU4XZ.jpg",
+      "genre": "Adventure",
+      "title": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+      "studio": "Studio PuYUKAI"
+    },
+    {
+      "id": 111734,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b136844-UoqciaLvz5Jf.png",
+      "genre": "Drama",
+      "title": "Given Movie",
+      "studio": "Lerche"
+    },
+    {
+      "id": 104937,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b163918-sxErlcZvdSoX.png",
+      "genre": "Fantasy",
+      "title": "Lapis Re:LiGHTs",
+      "studio": "Yokohama Animation Lab"
+    },
+    {
+      "id": 112788,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b122188-6hwbkiFbSrQi.png",
+      "genre": "Romance",
+      "title": "Umibe no Étranger",
+      "studio": "Studio Hibari"
+    }
+  ],
+  "TopAiringToday": [
+    {
+      "id": 112748,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112748-TkfRFNCgQFQX.jpg",
+      "title": "Healin' Good♥Precure",
+      "score": 1866
+    },
+    {
+      "id": 114811,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114811-SLZ6cMMhx6Im.jpg",
+      "title": "Digimon Adventure:",
+      "score": 8435
+    },
+    {
+      "id": 21,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21-tXMN3Y20PIL9.jpg",
+      "title": "One Piece",
+      "score": 109067
+    },
+    {
+      "id": 113990,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113990-O20fnFEedMEW.jpg",
+      "title": "Kiratto Pri☆Chan Season 3",
+      "score": 302
+    },
+    {
+      "id": 111310,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx111310-KTLldElz3BSp.png",
+      "title": "Mewkledreamy",
+      "score": 1590
+    },
+    {
+      "id": 116964,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116964-8ogwaqY2bWXg.png",
+      "title": "Yao Shen Ji: Hei Yu Pian",
+      "score": 222
+    },
+    {
+      "id": 121177,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121177-E9coc2I3sTVl.png",
+      "title": "Wu Dong Qiankun 2",
+      "score": 38
+    },
+    {
+      "id": 121392,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121392-Fv3eBTpfE0AK.png",
+      "title": "Xiao Cangshu Didi de  Chibo Richang",
+      "score": 5
+    },
+    {
+      "id": 117168,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx117168-UlG02tQC3K8m.jpg",
+      "title": "Wushen Zhuzai",
+      "score": 53
+    },
+    {
+      "id": 116182,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116182-W5Uj5asq3KSI.jpg",
+      "title": "Tianbao Fuyao Lu",
+      "score": 76
+    },
+    {
+      "id": 97938,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97938-EpFiuSLY7o1e.jpg",
+      "title": "Boruto: Naruto Next Generations",
+      "score": 52379
+    },
+    {
+      "id": 112153,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112153-LK1lpFz3vlvl.png",
+      "title": "Pocket Monsters (2019)",
+      "score": 7618
+    },
+    {
+      "id": 2406,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2406.jpg",
+      "title": "Sazae-san",
+      "score": 627
+    },
+    {
+      "id": 116793,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b116793-FUrgbF2R7alU.jpg",
+      "title": "Motto! Majime ni Fumajime Kaiketsu Zorori",
+      "score": 162
+    },
+    {
+      "id": 107069,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107069-mABDNDDtWWiW.png",
+      "title": "Wu Shan Wu Xing",
+      "score": 580
+    },
+    {
+      "id": 113286,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113286-AUS3PAJ5n6BU.png",
+      "title": "Monster Musume no Oisha-san",
+      "score": 12243
+    },
+    {
+      "id": 116648,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116648-Pfp085LtQ7jp.jpg",
+      "title": "Kyojinzoku no Hanayome",
+      "score": 1020
+    },
+    {
+      "id": 120180,
+      "thumbnail": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120180-NSws10rGLbIZ.png",
+      "title": "Ninja Collection",
+      "score": 1658
+    }
+  ],
+  "TopCategories": [
+    { "title": "Top Anime", "list": "[Array]" },
+    { "title": "Top Action", "list": "[Array]" },
+    { "title": "Top Romance", "list": "[Array]" },
+    { "title": "Top Drama", "list": "[Array]" },
+    { "title": "Top Comedy", "list": "[Array]" }
+  ]
+}

@@ -1,17 +1,18 @@
-import fetchContent from "../../scripts/content/showcase";
+import setShowCaseData from "../../api/showcase/call";
 
 const INITIAL_STATE = {
-  images: [],
-  trending: [],
-  top6AiringToday: [],
-  top: [],
+  HeroGallery: [],
+  Trending: [],
+  TopAiringToday: [],
+  TopCategories: [],
   isLoaded: false,
+  didLoadingFail: false,
 };
 
 export default function showcaseReducer(state = INITIAL_STATE, action) {
   switch (action.type) {
     case "FETCH_SHOWCASE_DATA":
-      if (!state.isLoaded) fetchContent(state, action.dispatch);
+      if (!state.isLoaded) setShowCaseData(state, action.dispatch);
       return state;
     case "SET_SHOWCASE_DATA":
       return Object.assign({}, state, action.newState);

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, ImageBackground, TouchableHighlight } from "react-native";
 
-const SmallCard = ({ item, index, lastIndex }) => {
+const SmallCard = ({ item, index, lastIndex, navigation }) => {
   return (
     <TouchableHighlight
       style={[
@@ -13,14 +13,18 @@ const SmallCard = ({ item, index, lastIndex }) => {
       ]}
       activeOpacity={1}
       underlayColor="rgba(0, 0, 0, .1)"
-      onPress={() => {}}
+      onPress={() => {
+        navigation.navigate("Show", {
+          id: item.id,
+        });
+      }}
     >
       <View style={styles.SmallCard}>
         <ImageBackground
           style={styles.image}
           imageStyle={styles.background}
           source={{
-            uri: item.thumb,
+            uri: item.thumbnail,
           }}
         />
         <Text style={styles.genre}>{item.genre}</Text>

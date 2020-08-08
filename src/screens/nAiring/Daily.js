@@ -1,59 +1,9 @@
 import React from "react";
-import { View, Text, Dimensions, ScrollView } from "react-native";
+import { View, Dimensions, ScrollView, Text } from "react-native";
 import Tile from "../../components/nTile";
+import { connect } from "react-redux";
 
 const { width, height } = Dimensions.get("window");
-
-const lists = [
-  {
-    id: 1,
-    thumb:
-      "https://s4.anilist.co/file/anilistcdn/character/large/b128106-1Gf64rjTWY8w.png",
-    title: "Kanojo, Okarishimasu",
-    genre: "Romance",
-    score: "10",
-  },
-  {
-    id: 2,
-    thumb:
-      "https://s4.anilist.co/file/anilistcdn/character/large/b124136-CgcQbeqQFocf.jpg",
-    title: "The God Of High School",
-    genre: "Action",
-    score: "10",
-  },
-  {
-    id: 3,
-    thumb:
-      "https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png",
-    title: "Attack On Titan ",
-    genre: "Action",
-    score: "10",
-  },
-  {
-    id: 4,
-    thumb:
-      "https://s4.anilist.co/file/anilistcdn/character/large/b128106-1Gf64rjTWY8w.png",
-    title: "Kanojo, Okarishimasu Okarishimasu Okarishimasu",
-    genre: "Romance",
-    score: "10",
-  },
-  {
-    id: 5,
-    thumb:
-      "https://s4.anilist.co/file/anilistcdn/character/large/b124136-CgcQbeqQFocf.jpg",
-    title: "The God Of High School",
-    genre: "Action",
-    score: "10",
-  },
-  {
-    id: 6,
-    thumb:
-      "https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png",
-    title: "Attack On Titan ",
-    genre: "Action",
-    score: "10",
-  },
-];
 
 const styles = {
   Daily: {
@@ -64,19 +14,61 @@ const styles = {
     display: "flex",
     flexDirection: "row",
     flexWrap: "wrap",
+    paddingBottom: 100,
   },
 };
 
-const Daily = (props) => {
-  return (
-    <ScrollView style={styles.Daily}>
-      <View style={styles.Content}>
-        {lists.map((x, itemIndex) => (
-          <Tile item={x} key={itemIndex} width={width / 3} />
-        ))}
-      </View>
-    </ScrollView>
-  );
-};
+class Daily extends React.Component {
+  constructor(props) {
+    super(props);
+    const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+    const d = new Date().getDay();
+    this.state = {
+      day: this.props.route.name,
+      offset: days.indexOf(this.props.route.name) - d,
+    };
+  }
 
-export default Daily;
+  componentDidMount() {
+    this.props.fetchData(this.state.day, this.state.offset);
+  }
+
+  render() {
+    if (!this.props.store[this.state.day].isLoaded)
+      return (
+        <View>
+          <Text>Skeleton</Text>
+        </View>
+      );
+    else {
+      // console.log(this.props.store[this.state.day]);
+      return (
+        <ScrollView style={styles.Daily}>
+          <View style={styles.Content}>
+            {this.props.store[this.state.day].lists.map((show, itemIndex) => (
+              <Tile
+                item={show}
+                key={itemIndex}
+                width={width / 3}
+                navigation={this.props.navigation}
+              />
+            ))}
+          </View>
+        </ScrollView>
+      );
+    }
+  }
+}
+
+function mapStateToProps(state) {
+  return { store: state.daily };
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    fetchData: (day, offset) =>
+      dispatch({ type: "FETCH_SCHEDULE_DATA", dispatch, day, offset }),
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Daily);

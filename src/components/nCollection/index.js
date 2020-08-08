@@ -25,7 +25,11 @@ const Collection = (props) => {
         horizontal
         data={props.lists}
         renderItem={(cProps) => (
-          <SmallCard {...cProps} lastIndex={props.lists.length - 1} />
+          <SmallCard
+            {...cProps}
+            lastIndex={props.lists.length - 1}
+            navigation={props.navigation}
+          />
         )}
         showsHorizontalScrollIndicator={false}
         keyExtractor={(item) => String(item.id)}
