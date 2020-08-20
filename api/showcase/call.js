@@ -1,21 +1,21 @@
-const api = require("./response"); // TEST
-// const axios = require("axios");
-// const { graphQLQuery, graphQLVariables } = require("./query");
+// const api = require("./response"); // TEST
+const axios = require("axios");
+const { graphQLQuery, graphQLVariables } = require("./query");
 
-// const api = new Promise(function (resolve, reject) {
-//   axios({
-//     method: "POST",
-//     url: "https://graphql.anilist.co",
-//     data: {
-//       query: graphQLQuery,
-//       variables: graphQLVariables,
-//     },
-//   })
-//     .then((res) => {
-//       resolve(res.data.data);
-//     })
-//     .catch((err) => reject(err));
-// });
+const api = new Promise(function (resolve, reject) {
+  axios({
+    method: "POST",
+    url: "https://graphql.anilist.co",
+    data: {
+      query: graphQLQuery,
+      variables: graphQLVariables,
+    },
+  })
+    .then((res) => {
+      resolve(res.data.data);
+    })
+    .catch((err) => reject(err));
+});
 
 // Helper Functions
 

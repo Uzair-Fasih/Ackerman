@@ -1,23 +1,23 @@
-const api = require("./response");
-// const axios = require("axios");
-// const { graphQLQuery, graphQLVariables } = require("./query");
+// const api = require("./response");
+const axios = require("axios");
+const { graphQLQuery, graphQLVariables } = require("./query");
 
-// const api = function (offset) {
-//   return new Promise(function (resolve, reject) {
-//     axios({
-//       method: "POST",
-//       url: "https://graphql.anilist.co",
-//       data: {
-//         query: graphQLQuery,
-//         variables: graphQLVariables(offset),
-//       },
-//     })
-//       .then((res) => {
-//         resolve(res.data.data);
-//       })
-//       .catch((err) => reject(err));
-//   });
-// };
+const api = function (offset) {
+  return new Promise(function (resolve, reject) {
+    axios({
+      method: "POST",
+      url: "https://graphql.anilist.co",
+      data: {
+        query: graphQLQuery,
+        variables: graphQLVariables(offset),
+      },
+    })
+      .then((res) => {
+        resolve(res.data.data);
+      })
+      .catch((err) => reject(err));
+  });
+};
 
 const setScheduleData = (state, dispatch, day, offset) => {
   api(offset)
