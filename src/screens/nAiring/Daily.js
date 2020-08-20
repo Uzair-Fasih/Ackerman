@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Dimensions, ScrollView, Text } from "react-native";
 import Tile from "../../components/nTile";
+import Skeleton from "./Skeleton";
 import { connect } from "react-redux";
 
 const { width, height } = Dimensions.get("window");
@@ -34,12 +35,7 @@ class Daily extends React.Component {
   }
 
   render() {
-    if (!this.props.store[this.state.day].isLoaded)
-      return (
-        <View>
-          <Text>Skeleton</Text>
-        </View>
-      );
+    if (!this.props.store[this.state.day].isLoaded) return <Skeleton />;
     else {
       // console.log(this.props.store[this.state.day]);
       return (

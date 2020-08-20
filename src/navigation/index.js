@@ -3,6 +3,8 @@ import { SafeAreaView, StatusBar, Dimensions } from "react-native";
 import * as Network from "expo-network";
 
 import StackNavigator from "./StackNavigator";
+// import StackNavigator from "../../src/screens/nShow";
+
 import NotConnected from "../screens/nErrors/NotConnected";
 import { Provider } from "react-redux";
 import store from "../../store";

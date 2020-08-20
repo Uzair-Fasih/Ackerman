@@ -13,7 +13,7 @@ function TabIcon(focused, color, size, route) {
     return (
       <AntDesign
         name="dingding"
-        size={30}
+        size={24}
         color={focused ? "#00dc64" : "#333"}
       />
     );
@@ -55,7 +55,7 @@ export default function bottomTabNavigator() {
           backgroundColor: "#fafafa",
         },
         labelStyle: {
-          fontSize: 12,
+          fontSize: 11,
           marginBottom: 10,
           textTransform: "uppercase",
           letterSpacing: 1,

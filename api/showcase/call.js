@@ -1,6 +1,6 @@
 const api = require("./response"); // TEST
-const axios = require("axios");
-const { graphQLQuery, graphQLVariables } = require("./query");
+// const axios = require("axios");
+// const { graphQLQuery, graphQLVariables } = require("./query");
 
 // const api = new Promise(function (resolve, reject) {
 //   axios({
