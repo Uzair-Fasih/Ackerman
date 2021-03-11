@@ -1,23 +1,6 @@
-// const api = require("./response"); // TEST
-const axios = require("axios");
+const response = require("./response"); // TEST
+const axios = require("../../plugins/axios");
 const { graphQLQuery, graphQLVariables } = require("./query");
-
-const api = new Promise(function (resolve, reject) {
-  axios({
-    method: "POST",
-    url: "https://graphql.anilist.co",
-    data: {
-      query: graphQLQuery,
-      variables: graphQLVariables,
-    },
-  })
-    .then((res) => {
-      resolve(res.data.data);
-    })
-    .catch((err) => reject(err));
-});
-
-// Helper Functions
 
 const fetchThumbnail = (show) => {
   let thumbnail =
@@ -127,7 +110,13 @@ const modifyStateForTopCategories = (state, res) => {
 };
 
 const setShowCaseData = (state, dispatch) => {
-  api
+  axios({
+    method: "POST",
+    url: "https://graphql.anilist.co",
+    query: graphQLQuery,
+    variables: graphQLVariables,
+    response,
+  })
     .then((res) => {
       state = modifyStateForHeroGallery(state, res);
       state = modifyStateForTrending(state, res);

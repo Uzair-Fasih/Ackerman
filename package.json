@@ -5,8 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "emulate_phone": "cd C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\tools && emulator -avd  Nexus_5X_API_27",
-    "emulate_tablet": "cd C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\emulator && emulator -avd  Nexus_9_API_29"
+    "emulate_phone": "C: && cd C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\tools && emulator -avd  Nexus_5X_API_27",
+    "emulate_tablet": "C: && cd C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\emulator && emulator -avd  Nexus_9_API_29"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
@@ -18,9 +18,12 @@
     "cheerio-without-node-native": "^0.20.2",
     "expo": "^38.0.0",
     "expo-font": "~8.2.1",
+    "expo-network": "~2.2.1",
+    "lodash": "^4.17.21",
     "react": "16.11.0",
     "react-content-loader": "^5.1.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-dotenv": "^2.5.3",
     "react-native-gesture-handler": "~1.6.0",
     "react-native-reanimated": "~1.9.0",
     "react-native-safe-area-context": "~3.0.7",
@@ -29,8 +32,7 @@
     "react-native-tab-view": "^2.15.0",
     "react-navigation-material-bottom-tabs": "^1.0.0",
     "react-redux": "^7.2.1",
-    "redux": "^4.0.5",
-    "expo-network": "~2.2.1"
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "babel-preset-expo": "^8.2.3"

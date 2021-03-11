@@ -1,28 +1,17 @@
-// const api = require("./response");
-const axios = require("axios");
+const response = require("./response");
+const axios = require("../../plugins/axios");
 const { graphQLQuery, graphQLVariables } = require("./query");
-
-const api = function (id) {
-  return new Promise(function (resolve, reject) {
-    axios({
-      method: "POST",
-      url: "https://graphql.anilist.co",
-      data: {
-        query: graphQLQuery,
-        variables: graphQLVariables(id),
-      },
-    })
-      .then((res) => {
-        resolve(res.data.data);
-      })
-      .catch((err) => reject(err));
-  });
-};
 
 const getShowInformation = (id, setData) => {
   let show = {};
 
-  api(id)
+  axios({
+    method: "POST",
+    url: "https://graphql.anilist.co",
+    query: graphQLQuery,
+    variables: graphQLVariables(id),
+    response,
+  })
     .then((res) => {
       media = res["Media"];
       show = {

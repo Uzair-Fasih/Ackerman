@@ -1,4 +1,4 @@
-const response = {
+module.exports = {
   Media: {
     bannerImage:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
@@ -264,10 +264,4 @@ const response = {
       },
     ],
   },
-};
-
-module.exports = function () {
-  return new Promise(function (resolve, reject) {
-    resolve(response);
-  });
 };

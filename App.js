@@ -1,27 +1,25 @@
 import "react-native-gesture-handler";
 import React from "react";
-import * as Font from "expo-font";
+import setup from "./utils/setup";
 import { NavigationContainer } from "@react-navigation/native";
+
 import Navigation from "./src/navigation";
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      areFontsLoaded: false,
+      isSetupCompleted: false,
     };
   }
 
   async componentDidMount() {
-    await Font.loadAsync({
-      light: require("./assets/fonts/light.ttf"),
-      bold: require("./assets/fonts/bold.ttf"),
-    });
-    this.setState({ areFontsLoaded: true });
+    const isSetupCompleted = await setup();
+    this.setState({ isSetupCompleted });
   }
 
   render() {
-    if (this.state.areFontsLoaded)
+    if (this.state.isSetupCompleted)
       return (
         <NavigationContainer>
           <Navigation />

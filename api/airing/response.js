@@ -1,4 +1,4 @@
-const response = {
+module.exports = {
   Page: {
     airingSchedules: [
       {
@@ -255,10 +255,4 @@ const response = {
       },
     ],
   },
-};
-
-module.exports = function () {
-  return new Promise(function (resolve, reject) {
-    resolve(response);
-  });
 };

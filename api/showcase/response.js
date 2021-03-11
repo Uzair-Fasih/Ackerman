@@ -1,222 +1,63 @@
-const response = {
+module.exports = {
   HeroGalleryContent: {
     media: [
       {
-        id: 113813,
-        title: {
-          userPreferred: "Kanojo, Okarishimasu",
-        },
-        bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113813-Al8VofQuNQHV.jpg",
-      },
-      {
-        id: 114236,
-        title: {
-          userPreferred: "Enen no Shouboutai: Ni no Shou",
-        },
-        bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114236-6nbw38bHeXYQ.jpg",
-      },
-      {
-        id: 115113,
-        title: {
-          userPreferred: "Uzaki-chan wa Asobitai!",
-        },
-        bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115113-wIWyzBlDR5Kt.jpg",
-      },
-      {
-        id: 108489,
+        id: 119661,
         title: {
           userPreferred:
-            "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan",
+            "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
         },
         bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108489-z4DheppQdxo4.jpg",
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119661-9C7DvtL7yfCu.jpg",
       },
       {
-        id: 108632,
-        title: {
-          userPreferred: "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
-        },
+        id: 113425,
+        title: { userPreferred: "Kaifuku Jutsushi no Yarinaoshi" },
         bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108632-pJU8fOHU51ce.jpg",
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113425-76oHjRlc6UTZ.jpg",
       },
       {
-        id: 116006,
-        title: {
-          userPreferred: "THE GOD OF HIGH SCHOOL",
-        },
+        id: 110277,
+        title: { userPreferred: "Shingeki no Kyojin: The Final Season" },
         bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116006-e7ZL1RJnabp1.jpg",
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110277-iuGn6F5bK1U1.jpg",
       },
       {
-        id: 111965,
-        title: {
-          userPreferred: "Peter Grill to Kenja no Jikan",
-        },
+        id: 124845,
+        title: { userPreferred: "Wonder Egg Priority" },
         bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111965-i9aeO9gvuH8e.jpg",
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124845-uw8Fiw3kWtbj.jpg",
       },
       {
-        id: 112818,
-        title: {
-          userPreferred: "Dokyuu Hentai HxEros",
-        },
+        id: 108511,
+        title: { userPreferred: "Tensei Shitara Slime Datta Ken 2nd Season" },
         bannerImage:
-          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112818-l9jhlxOIv2kQ.jpg",
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108511-lcP2j3XlKERG.jpg",
+      },
+      {
+        id: 124080,
+        title: { userPreferred: "Horimiya" },
+        bannerImage:
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124080-ARyLAHHgikRq.jpg",
+      },
+      {
+        id: 116752,
+        title: { userPreferred: "Nanatsu no Taizai: Fundo no Shinpan" },
+        bannerImage:
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116752-P72hkhtqD76t.jpg",
+      },
+      {
+        id: 114194,
+        title: { userPreferred: "BEASTARS 2" },
+        bannerImage:
+          "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114194-oYdHb4LhmHrs.jpg",
       },
     ],
   },
   TrendingContent: {
     media: [
       {
-        id: 113813,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b128106-1Gf64rjTWY8w.png",
-              },
-            },
-          ],
-        },
-        genres: ["Comedy", "Drama", "Ecchi", "Romance"],
-        title: {
-          userPreferred: "Kanojo, Okarishimasu",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "TMS Entertainment",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 114236,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/n130716-5564jUgQxK9a.png",
-              },
-            },
-          ],
-        },
-        genres: ["Action", "Drama", "Supernatural"],
-        title: {
-          userPreferred: "Enen no Shouboutai: Ni no Shou",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "David Production",
-              },
-            },
-            {
-              node: {
-                name: "FUNimation Entertainment",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 115113,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b130665-eb65zDu3doTn.jpg",
-              },
-            },
-          ],
-        },
-        genres: ["Comedy", "Ecchi", "Romance", "Slice of Life"],
-        title: {
-          userPreferred: "Uzaki-chan wa Asobitai!",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "FUNimation Entertainment",
-              },
-            },
-            {
-              node: {
-                name: "ENGI",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 108489,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b67065-dvBJoFzvk2eo.png",
-              },
-            },
-          ],
-        },
-        genres: ["Comedy", "Drama", "Romance", "Slice of Life"],
-        title: {
-          userPreferred:
-            "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "feel.",
-              },
-            },
-            {
-              node: {
-                name: "Sentai Filmworks",
-              },
-            },
-            {
-              node: {
-                name: "TBS",
-              },
-            },
-            {
-              node: {
-                name: "Movic",
-              },
-            },
-            {
-              node: {
-                name: "NBCUniversal Entertainment Japan",
-              },
-            },
-            {
-              node: {
-                name: "Delphi Sound",
-              },
-            },
-            {
-              node: {
-                name: "Marvelous Entertainment",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 108632,
+        id: 119661,
         characters: {
           nodes: [
             {
@@ -227,411 +68,336 @@ const response = {
             },
           ],
         },
-        genres: ["Action", "Adventure", "Drama", "Fantasy", "Psychological"],
-        title: {
-          userPreferred: "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "White Fox",
-              },
-            },
-            {
-              node: {
-                name: "Kadokawa Shoten",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 116006,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b124136-CgcQbeqQFocf.jpg",
-              },
-            },
-          ],
-        },
-        genres: ["Action", "Adventure", "Comedy", "Supernatural"],
-        title: {
-          userPreferred: "THE GOD OF HIGH SCHOOL",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "MAPPA",
-              },
-            },
-            {
-              node: {
-                name: "Crunchyroll",
-              },
-            },
-            {
-              node: {
-                name: "Line Webtoon",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 111965,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b164452-P1A0bR0RiNIE.png",
-              },
-            },
-          ],
-        },
-        genres: ["Comedy", "Ecchi", "Fantasy"],
-        title: {
-          userPreferred: "Peter Grill to Kenja no Jikan",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "Sentai Filmworks",
-              },
-            },
-            {
-              node: {
-                name: "WolfsBane",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 112818,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b36309-oZUg0v5iWJIS.jpg",
-              },
-            },
-          ],
-        },
-        genres: ["Action", "Comedy", "Ecchi", "Romance", "Supernatural"],
-        title: {
-          userPreferred: "Dokyuu Hentai HxEros",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "Aniplex of America",
-              },
-            },
-            {
-              node: {
-                name: "project No.9",
-              },
-            },
-            {
-              node: {
-                name: "Studio Mausu",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 110353,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b170191-u0z097eOMOHR.png",
-              },
-            },
-          ],
-        },
-        genres: ["Action", "Adventure", "Sci-Fi"],
-        title: {
-          userPreferred: "Deca-Dence",
-        },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "FUNimation Entertainment",
-              },
-            },
-            {
-              node: {
-                name: "NUT",
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: 112301,
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b138595-KIN4IyJaUYhI.png",
-              },
-            },
-          ],
-        },
-        genres: ["Action", "Comedy", "Fantasy", "Romance"],
+        genres: [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Romance",
+          "Thriller",
+        ],
         title: {
           userPreferred:
-            "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
+            "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
         },
-        studios: {
-          edges: [
-            {
-              node: {
-                name: "SILVER LINK.",
-              },
-            },
-            {
-              node: {
-                name: "Aniplex of America",
-              },
-            },
-          ],
-        },
+        studios: { edges: [{ node: { name: "White Fox" } }] },
       },
       {
-        id: 114308,
+        id: 113425,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b36828-5qA8PW4PXtfw.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b139400-yNnS77psdh6a.jpg",
               },
             },
           ],
         },
-        genres: ["Action", "Adventure", "Fantasy"],
-        title: {
-          userPreferred:
-            "Sword Art Online: Alicization - War of Underworld Part 2",
-        },
+        genres: ["Ecchi", "Fantasy"],
+        title: { userPreferred: "Kaifuku Jutsushi no Yarinaoshi" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "A-1 Pictures",
-              },
-            },
-            {
-              node: {
-                name: "Aniplex",
-              },
-            },
-            {
-              node: {
-                name: "Aniplex of America",
-              },
-            },
-            {
-              node: {
-                name: "EGG FIRM",
-              },
-            },
+            { node: { name: "Sentai Filmworks" } },
+            { node: { name: "TNK" } },
           ],
         },
       },
       {
-        id: 112803,
+        id: 110277,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b144449-7nS5elzMlXXA.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b45627-CR68RyZmddGG.png",
               },
             },
           ],
         },
-        genres: ["Action", "Drama", "Sci-Fi"],
-        title: {
-          userPreferred: "No Guns Life 2",
-        },
+        genres: ["Action", "Drama", "Fantasy", "Mystery"],
+        title: { userPreferred: "Shingeki no Kyojin: The Final Season" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "MADHOUSE",
-              },
-            },
-            {
-              node: {
-                name: "FUNimation Entertainment",
-              },
-            },
-            {
-              node: {
-                name: "EGG FIRM",
-              },
-            },
+            { node: { name: "MAPPA" } },
+            { node: { name: "Production I.G" } },
+            { node: { name: "FUNimation Entertainment" } },
+            { node: { name: "Pony Canyon" } },
+            { node: { name: "Mainichi Broadcasting System" } },
           ],
         },
       },
       {
-        id: 113286,
+        id: 124845,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b151235-rKNWP2sMLxEq.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b199892-VKrXqxFy6tNr.png",
               },
             },
           ],
         },
-        genres: ["Comedy", "Ecchi", "Fantasy", "Romance"],
-        title: {
-          userPreferred: "Monster Musume no Oisha-san",
-        },
+        genres: [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Psychological",
+          "Thriller",
+        ],
+        title: { userPreferred: "Wonder Egg Priority" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "Arvo Animation",
-              },
-            },
-            {
-              node: {
-                name: "Hakuhodo DY Music & Pictures",
-              },
-            },
-            {
-              node: {
-                name: "Magic Capsule",
-              },
-            },
+            { node: { name: "CloverWorks" } },
+            { node: { name: "Aniplex" } },
+            { node: { name: "D.N. Dream Partners" } },
+            { node: { name: "NTV Music" } },
           ],
         },
       },
       {
-        id: 110371,
+        id: 108511,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b141887-Ms3TSUtplLqB.jpg",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b123962-eL9yGV0NLMF7.png",
               },
             },
           ],
         },
-        genres: ["Drama", "Romance", "Sci-Fi"],
-        title: {
-          userPreferred: "Koi to Producer: EVOL×LOVE",
-        },
+        genres: ["Adventure", "Comedy", "Fantasy"],
+        title: { userPreferred: "Tensei Shitara Slime Datta Ken 2nd Season" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "MAPPA",
-              },
-            },
-            {
-              node: {
-                name: "Emoto Entertainment",
-              },
-            },
-            {
-              node: {
-                name: "CAAnimation",
-              },
-            },
+            { node: { name: "FUNimation Entertainment" } },
+            { node: { name: "8-bit" } },
           ],
         },
       },
       {
-        id: 110446,
+        id: 124080,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b141825-jnDxOOFKcoJu.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b66173-g8eU1LGWPB8O.png",
               },
             },
           ],
         },
-        genres: ["Action", "Horror"],
-        title: {
-          userPreferred: "Gibiate",
-        },
+        genres: ["Comedy", "Romance", "Slice of Life"],
+        title: { userPreferred: "Horimiya" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "Crunchyroll",
-              },
-            },
-            {
-              node: {
-                name: "Studio elle",
-              },
-            },
-            {
-              node: {
-                name: " l-a-unch・BOX",
-              },
-            },
+            { node: { name: "CloverWorks" } },
+            { node: { name: "FUNimation Entertainment" } },
           ],
         },
       },
       {
-        id: 112357,
+        id: 116752,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b174141-PtD4wL27bphZ.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b77605-NrjhQwZwgJ3l.png",
               },
             },
           ],
         },
-        genres: ["Drama", "Sci-Fi"],
-        title: {
-          userPreferred: "Nihon Chinbotsu: 2020",
-        },
+        genres: [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Ecchi",
+          "Fantasy",
+          "Supernatural",
+        ],
+        title: { userPreferred: "Nanatsu no Taizai: Fundo no Shinpan" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "Science SARU",
-              },
-            },
+            { node: { name: "Studio DEEN" } },
+            { node: { name: "Marvy Jack" } },
           ],
         },
       },
       {
-        id: 120700,
+        id: 114194,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b88572-v2KimyNuU4XZ.jpg",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b125168-ZQsj4kFWPUMB.jpg",
+              },
+            },
+          ],
+        },
+        genres: ["Drama", "Psychological", "Romance", "Slice of Life"],
+        title: { userPreferred: "BEASTARS 2" },
+        studios: { edges: [{ node: { name: "Orange" } }] },
+      },
+      {
+        id: 108465,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b88350-msG5VZgxP5ux.png",
+              },
+            },
+          ],
+        },
+        genres: ["Adventure", "Drama", "Ecchi", "Fantasy"],
+        title: { userPreferred: "Mushoku Tensei: Isekai Ittara Honki Dasu" },
+        studios: {
+          edges: [
+            { node: { name: "Studio Bind" } },
+            { node: { name: "Toho Company" } },
+            { node: { name: "EGG FIRM" } },
+            { node: { name: "Frontier Works" } },
+            { node: { name: "Kadokawa" } },
+            { node: { name: "Hakuhodo DY Music & Pictures" } },
+            { node: { name: "GREE" } },
+            { node: { name: "BS11" } },
+          ],
+        },
+      },
+      {
+        id: 124153,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b195116-sNqR9CFjDQjs.png",
+              },
+            },
+          ],
+        },
+        genres: ["Action", "Comedy", "Sports"],
+        title: { userPreferred: "SK∞" },
+        studios: {
+          edges: [
+            { node: { name: "BONES" } },
+            { node: { name: "Aniplex of America" } },
+          ],
+        },
+      },
+      {
+        id: 114862,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b81367-7uUHlj6iV0Am.png",
+              },
+            },
+          ],
+        },
+        genres: ["Action", "Adventure", "Comedy"],
+        title: { userPreferred: "Log Horizon: Entaku Houkai" },
+        studios: {
+          edges: [
+            { node: { name: "FUNimation Entertainment" } },
+            { node: { name: "Studio DEEN" } },
+          ],
+        },
+      },
+      {
+        id: 108725,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b121724-SJTdODjeO7e6.jpg",
+              },
+            },
+          ],
+        },
+        genres: ["Action", "Adventure", "Drama", "Fantasy", "Horror"],
+        title: { userPreferred: "Yakusoku no Neverland 2" },
+        studios: {
+          edges: [
+            { node: { name: "CloverWorks" } },
+            { node: { name: "Aniplex" } },
+            { node: { name: "Fuji TV" } },
+            { node: { name: "Dentsu" } },
+            { node: { name: "Shueisha" } },
+          ],
+        },
+      },
+      {
+        id: 125428,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b131653-Z5yYxSzpU4qw.jpg",
+              },
+            },
+          ],
+        },
+        genres: ["Action", "Horror", "Mystery"],
+        title: { userPreferred: "Tenkuu Shinpan" },
+        studios: { edges: [{ node: { name: "Zero-G" } }] },
+      },
+      {
+        id: 113936,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b124142-fFBZo37G0pao.png",
+              },
+            },
+          ],
+        },
+        genres: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+        title: { userPreferred: "Dr. STONE: STONE WARS" },
+        studios: {
+          edges: [
+            { node: { name: "FUNimation Entertainment" } },
+            { node: { name: "TMS Entertainment" } },
+          ],
+        },
+      },
+      {
+        id: 114085,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b154749-fVq2l8ieWOyw.png",
+              },
+            },
+          ],
+        },
+        genres: ["Action", "Supernatural"],
+        title: { userPreferred: "Kemono Jihen" },
+        studios: { edges: [{ node: { name: "Ajiado" } }] },
+      },
+      {
+        id: 112649,
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b149052-THCNy80qHzTS.png",
               },
             },
           ],
@@ -639,99 +405,102 @@ const response = {
         genres: ["Adventure", "Comedy", "Fantasy"],
         title: {
           userPreferred:
-            "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+            "Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari",
         },
         studios: {
           edges: [
-            {
-              node: {
-                name: "Studio PuYUKAI",
-              },
-            },
+            { node: { name: "LIDENFILMS" } },
+            { node: { name: "NBCUniversal Entertainment Japan" } },
           ],
         },
       },
       {
-        id: 111734,
+        id: 109261,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b136844-UoqciaLvz5Jf.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b126375-dEe9IyQ9By09.png",
               },
             },
           ],
         },
-        genres: ["Drama", "Music", "Romance", "Slice of Life"],
-        title: {
-          userPreferred: "Given Movie",
-        },
+        genres: ["Comedy", "Drama", "Romance"],
+        title: { userPreferred: "5-Toubun no Hanayome ∬" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "Lerche",
-              },
-            },
+            { node: { name: "Bibury" } },
+            { node: { name: "DAX Production" } },
+            { node: { name: "Nichion" } },
           ],
         },
       },
       {
-        id: 104937,
+        id: 116287,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b163918-sxErlcZvdSoX.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b156049-WnA52RDxoAiA.png",
               },
             },
           ],
         },
-        genres: ["Fantasy", "Music"],
-        title: {
-          userPreferred: "Lapis Re:LiGHTs",
-        },
+        genres: ["Adventure", "Fantasy", "Mystery", "Sci-Fi"],
+        title: { userPreferred: "Ura Sekai Picnic" },
         studios: {
           edges: [
-            {
-              node: {
-                name: "Yokohama Animation Lab",
-              },
-            },
-            {
-              node: {
-                name: "Studio Mausu",
-              },
-            },
+            { node: { name: "Square Enix" } },
+            { node: { name: "LIDENFILMS" } },
+            { node: { name: "Frontier Works" } },
+            { node: { name: "AT-X" } },
+            { node: { name: "Felix Film" } },
+            { node: { name: "Sony Pictures Entertainment" } },
+            { node: { name: "Hakuhodo DY Music & Pictures" } },
+            { node: { name: "Hayakawa Shobou" } },
+            { node: { name: "Good Smile Film" } },
+            { node: { name: "Amusement Media Academy" } },
+            { node: { name: "BS11" } },
           ],
         },
       },
       {
-        id: 122349,
+        id: 114301,
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b89220-AuWlCcZ8fy4l.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b174596-f1EqLC5w2Rq7.png",
               },
             },
           ],
         },
-        genres: ["Action", "Adventure", "Comedy"],
-        title: {
-          userPreferred:
-            "Boku no Hero Academia: Ikinokore! Kesshi no Survival Kunren",
-        },
-        studios: {
-          edges: [
+        genres: ["Action", "Adventure", "Drama", "Fantasy"],
+        title: { userPreferred: "Hortensia Saga" },
+        studios: { edges: [{ node: { name: "LIDENFILMS" } }] },
+      },
+      {
+        id: 103632,
+        characters: {
+          nodes: [
             {
-              node: {
-                name: "BONES",
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b122124-6ymNNXYfvyXO.png",
               },
             },
+          ],
+        },
+        genres: ["Adventure", "Comedy", "Fantasy"],
+        title: { userPreferred: "Kumo desu ga, Nani ka?" },
+        studios: {
+          edges: [
+            { node: { name: "Crunchyroll" } },
+            { node: { name: "Millepensee" } },
+            { node: { name: "exsa" } },
           ],
         },
       },
@@ -741,254 +510,74 @@ const response = {
     airingSchedules: [
       {
         media: {
-          id: 112748,
+          id: 109940,
           status: "RELEASING",
-          title: {
-            userPreferred: "Healin' Good♥Precure",
-          },
+          title: { userPreferred: "Qin Shi Mingyue: Canghai Hengliu" },
           coverImage: {
             large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112748-TkfRFNCgQFQX.jpg",
+              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx109940-0oF46AZ01CH6.png",
           },
-          popularity: 1866,
+          popularity: 95,
         },
       },
       {
         media: {
-          id: 114811,
+          id: 119927,
           status: "RELEASING",
-          title: {
-            userPreferred: "Digimon Adventure:",
-          },
+          title: { userPreferred: "Dubu Xiaoyao" },
           coverImage: {
             large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114811-SLZ6cMMhx6Im.jpg",
+              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx119927-y4o8s29KJANF.jpg",
           },
-          popularity: 8435,
+          popularity: 131,
         },
       },
       {
         media: {
-          id: 21,
+          id: 127984,
           status: "RELEASING",
-          title: {
-            userPreferred: "One Piece",
-          },
+          title: { userPreferred: "Changan Huan Jie" },
           coverImage: {
             large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21-tXMN3Y20PIL9.jpg",
+              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127984-Dken84bOHfrb.png",
           },
-          popularity: 109067,
+          popularity: 37,
         },
       },
       {
         media: {
-          id: 113990,
+          id: 130354,
           status: "RELEASING",
-          title: {
-            userPreferred: "Kiratto Pri☆Chan Season 3",
-          },
+          title: { userPreferred: "Wo Shi Da Shenxian 2" },
           coverImage: {
             large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113990-O20fnFEedMEW.jpg",
+              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130354-Vpao0Sr8IosW.jpg",
           },
-          popularity: 302,
+          popularity: 20,
         },
       },
       {
         media: {
-          id: 111310,
+          id: 129203,
           status: "RELEASING",
-          title: {
-            userPreferred: "Mewkledreamy",
-          },
+          title: { userPreferred: "Xing Wu Shen Jue" },
           coverImage: {
             large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx111310-KTLldElz3BSp.png",
+              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129203-5JUwwrylbPlA.png",
           },
-          popularity: 1590,
+          popularity: 96,
         },
       },
       {
         media: {
-          id: 116964,
+          id: 129037,
           status: "RELEASING",
-          title: {
-            userPreferred: "Yao Shen Ji: Hei Yu Pian",
-          },
+          title: { userPreferred: "Liuxing Huan Jian" },
           coverImage: {
             large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116964-8ogwaqY2bWXg.png",
+              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129037-ARexm8jCWs7j.png",
           },
-          popularity: 222,
-        },
-      },
-      {
-        media: {
-          id: 121177,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Wu Dong Qiankun 2",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121177-E9coc2I3sTVl.png",
-          },
-          popularity: 38,
-        },
-      },
-      {
-        media: {
-          id: 121392,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Xiao Cangshu Didi de  Chibo Richang",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121392-Fv3eBTpfE0AK.png",
-          },
-          popularity: 5,
-        },
-      },
-      {
-        media: {
-          id: 117168,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Wushen Zhuzai",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx117168-UlG02tQC3K8m.jpg",
-          },
-          popularity: 53,
-        },
-      },
-      {
-        media: {
-          id: 116182,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Tianbao Fuyao Lu",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116182-W5Uj5asq3KSI.jpg",
-          },
-          popularity: 76,
-        },
-      },
-      {
-        media: {
-          id: 97938,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Boruto: Naruto Next Generations",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97938-EpFiuSLY7o1e.jpg",
-          },
-          popularity: 52379,
-        },
-      },
-      {
-        media: {
-          id: 112153,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Pocket Monsters (2019)",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112153-LK1lpFz3vlvl.png",
-          },
-          popularity: 7618,
-        },
-      },
-      {
-        media: {
-          id: 2406,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Sazae-san",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2406.jpg",
-          },
-          popularity: 627,
-        },
-      },
-      {
-        media: {
-          id: 116793,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Motto! Majime ni Fumajime Kaiketsu Zorori",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b116793-FUrgbF2R7alU.jpg",
-          },
-          popularity: 162,
-        },
-      },
-      {
-        media: {
-          id: 107069,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Wu Shan Wu Xing",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107069-mABDNDDtWWiW.png",
-          },
-          popularity: 580,
-        },
-      },
-      {
-        media: {
-          id: 113286,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Monster Musume no Oisha-san",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113286-AUS3PAJ5n6BU.png",
-          },
-          popularity: 12243,
-        },
-      },
-      {
-        media: {
-          id: 116648,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Kyojinzoku no Hanayome",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116648-Pfp085LtQ7jp.jpg",
-          },
-          popularity: 1020,
-        },
-      },
-      {
-        media: {
-          id: 120180,
-          status: "RELEASING",
-          title: {
-            userPreferred: "Ninja Collection",
-          },
-          coverImage: {
-            large:
-              "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120180-NSws10rGLbIZ.png",
-          },
-          popularity: 1658,
+          popularity: 39,
         },
       },
     ],
@@ -997,9 +586,7 @@ const response = {
     media: [
       {
         id: 16498,
-        title: {
-          userPreferred: "Shingeki no Kyojin",
-        },
+        title: { userPreferred: "Shingeki no Kyojin" },
         characters: {
           nodes: [
             {
@@ -1014,9 +601,7 @@ const response = {
       },
       {
         id: 21459,
-        title: {
-          userPreferred: "Boku no Hero Academia",
-        },
+        title: { userPreferred: "Boku no Hero Academia" },
         characters: {
           nodes: [
             {
@@ -1031,9 +616,7 @@ const response = {
       },
       {
         id: 1535,
-        title: {
-          userPreferred: "Death Note",
-        },
+        title: { userPreferred: "Death Note" },
         characters: {
           nodes: [
             {
@@ -1047,38 +630,41 @@ const response = {
         genres: ["Mystery", "Psychological", "Supernatural", "Thriller"],
       },
       {
-        id: 11757,
-        title: {
-          userPreferred: "Sword Art Online",
-        },
+        id: 11061,
+        title: { userPreferred: "Hunter x Hunter (2011)" },
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b36828-5qA8PW4PXtfw.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b27-5dssrtgMb7Yd.jpg",
               },
             },
           ],
         },
-        genres: ["Action", "Adventure", "Fantasy", "Romance"],
+        genres: ["Action", "Adventure", "Fantasy"],
       },
       {
-        id: 21087,
-        title: {
-          userPreferred: "One Punch Man",
-        },
+        id: 101922,
+        title: { userPreferred: "Kimetsu no Yaiba" },
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/73935-WX4ViYPuZhs5.jpg",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b127518-7b4XKjasQE29.png",
               },
             },
           ],
         },
-        genres: ["Action", "Comedy", "Sci-Fi", "Supernatural"],
+        genres: [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Supernatural",
+        ],
       },
     ],
   },
@@ -1086,9 +672,7 @@ const response = {
     media: [
       {
         id: 16498,
-        title: {
-          userPreferred: "Shingeki no Kyojin",
-        },
+        title: { userPreferred: "Shingeki no Kyojin" },
         characters: {
           nodes: [
             {
@@ -1103,9 +687,7 @@ const response = {
       },
       {
         id: 21459,
-        title: {
-          userPreferred: "Boku no Hero Academia",
-        },
+        title: { userPreferred: "Boku no Hero Academia" },
         characters: {
           nodes: [
             {
@@ -1119,10 +701,45 @@ const response = {
         genres: ["Action", "Adventure", "Comedy"],
       },
       {
-        id: 11757,
-        title: {
-          userPreferred: "Sword Art Online",
+        id: 11061,
+        title: { userPreferred: "Hunter x Hunter (2011)" },
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b27-5dssrtgMb7Yd.jpg",
+              },
+            },
+          ],
         },
+        genres: ["Action", "Adventure", "Fantasy"],
+      },
+      {
+        id: 101922,
+        title: { userPreferred: "Kimetsu no Yaiba" },
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b127518-7b4XKjasQE29.png",
+              },
+            },
+          ],
+        },
+        genres: [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Supernatural",
+        ],
+      },
+      {
+        id: 11757,
+        title: { userPreferred: "Sword Art Online" },
         characters: {
           nodes: [
             {
@@ -1135,49 +752,13 @@ const response = {
         },
         genres: ["Action", "Adventure", "Fantasy", "Romance"],
       },
-      {
-        id: 21087,
-        title: {
-          userPreferred: "One Punch Man",
-        },
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/73935-WX4ViYPuZhs5.jpg",
-              },
-            },
-          ],
-        },
-        genres: ["Action", "Comedy", "Sci-Fi", "Supernatural"],
-      },
-      {
-        id: 5114,
-        title: {
-          userPreferred: "Hagane no Renkinjutsushi: Fullmetal Alchemist",
-        },
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/n11-k3dR0ZXPTwLd.jpg",
-              },
-            },
-          ],
-        },
-        genres: ["Action", "Adventure", "Drama", "Fantasy"],
-      },
     ],
   },
   TopOfRomanceContent: {
     media: [
       {
         id: 11757,
-        title: {
-          userPreferred: "Sword Art Online",
-        },
+        title: { userPreferred: "Sword Art Online" },
         characters: {
           nodes: [
             {
@@ -1192,9 +773,7 @@ const response = {
       },
       {
         id: 21519,
-        title: {
-          userPreferred: "Kimi no Na wa.",
-        },
+        title: { userPreferred: "Kimi no Na wa." },
         characters: {
           nodes: [
             {
@@ -1209,9 +788,7 @@ const response = {
       },
       {
         id: 20954,
-        title: {
-          userPreferred: "Koe no Katachi",
-        },
+        title: { userPreferred: "Koe no Katachi" },
         characters: {
           nodes: [
             {
@@ -1226,15 +803,13 @@ const response = {
       },
       {
         id: 20665,
-        title: {
-          userPreferred: "Shigatsu wa Kimi no Uso",
-        },
+        title: { userPreferred: "Shigatsu wa Kimi no Uso" },
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b69411-lxM0FRvWHqlv.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/69409-lq7MFPFTwmBu.png",
               },
             },
           ],
@@ -1242,21 +817,27 @@ const response = {
         genres: ["Drama", "Music", "Romance", "Slice of Life"],
       },
       {
-        id: 4224,
-        title: {
-          userPreferred: "Toradora!",
-        },
+        id: 21355,
+        title: { userPreferred: "Re:Zero kara Hajimeru Isekai Seikatsu" },
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/12064-nL11YrjqfdwJ.jpg",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b88572-v2KimyNuU4XZ.jpg",
               },
             },
           ],
         },
-        genres: ["Comedy", "Drama", "Romance", "Slice of Life"],
+        genres: [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Romance",
+          "Thriller",
+        ],
       },
     ],
   },
@@ -1264,9 +845,7 @@ const response = {
     media: [
       {
         id: 16498,
-        title: {
-          userPreferred: "Shingeki no Kyojin",
-        },
+        title: { userPreferred: "Shingeki no Kyojin" },
         characters: {
           nodes: [
             {
@@ -1278,6 +857,50 @@ const response = {
           ],
         },
         genres: ["Action", "Drama", "Fantasy", "Mystery"],
+      },
+      {
+        id: 101922,
+        title: { userPreferred: "Kimetsu no Yaiba" },
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b127518-7b4XKjasQE29.png",
+              },
+            },
+          ],
+        },
+        genres: [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Supernatural",
+        ],
+      },
+      {
+        id: 20605,
+        title: { userPreferred: "Tokyo Ghoul" },
+        characters: {
+          nodes: [
+            {
+              image: {
+                large:
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b87275-mb13EWZBdbh3.png",
+              },
+            },
+          ],
+        },
+        genres: [
+          "Action",
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural",
+        ],
       },
       {
         id: 5114,
@@ -1297,62 +920,19 @@ const response = {
         genres: ["Action", "Adventure", "Drama", "Fantasy"],
       },
       {
-        id: 20605,
-        title: {
-          userPreferred: "Tokyo Ghoul",
-        },
+        id: 20958,
+        title: { userPreferred: "Shingeki no Kyojin 2" },
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b87275-yb3l8vLhABK3.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b45627-CR68RyZmddGG.png",
               },
             },
           ],
         },
-        genres: [
-          "Action",
-          "Drama",
-          "Horror",
-          "Mystery",
-          "Psychological",
-          "Supernatural",
-        ],
-      },
-      {
-        id: 21519,
-        title: {
-          userPreferred: "Kimi no Na wa.",
-        },
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b121514-MGI7JRluscpz.png",
-              },
-            },
-          ],
-        },
-        genres: ["Drama", "Romance", "Supernatural"],
-      },
-      {
-        id: 9253,
-        title: {
-          userPreferred: "Steins;Gate",
-        },
-        characters: {
-          nodes: [
-            {
-              image: {
-                large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b34470-iPv1JxglAfpD.png",
-              },
-            },
-          ],
-        },
-        genres: ["Drama", "Psychological", "Sci-Fi", "Thriller"],
+        genres: ["Action", "Drama", "Fantasy", "Mystery"],
       },
     ],
   },
@@ -1360,9 +940,7 @@ const response = {
     media: [
       {
         id: 21459,
-        title: {
-          userPreferred: "Boku no Hero Academia",
-        },
+        title: { userPreferred: "Boku no Hero Academia" },
         characters: {
           nodes: [
             {
@@ -1377,9 +955,7 @@ const response = {
       },
       {
         id: 21087,
-        title: {
-          userPreferred: "One Punch Man",
-        },
+        title: { userPreferred: "One Punch Man" },
         characters: {
           nodes: [
             {
@@ -1394,9 +970,7 @@ const response = {
       },
       {
         id: 21856,
-        title: {
-          userPreferred: "Boku no Hero Academia 2",
-        },
+        title: { userPreferred: "Boku no Hero Academia 2" },
         characters: {
           nodes: [
             {
@@ -1410,44 +984,35 @@ const response = {
         genres: ["Action", "Adventure", "Comedy"],
       },
       {
-        id: 19815,
-        title: {
-          userPreferred: "No Game No Life",
-        },
+        id: 20,
+        title: { userPreferred: "Naruto" },
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/n82525-Le2tc8f6OQ0w.jpg",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b85-thWHf96gqMLi.png",
               },
             },
           ],
         },
-        genres: ["Adventure", "Comedy", "Ecchi", "Fantasy"],
+        genres: ["Action", "Comedy"],
       },
       {
-        id: 20447,
-        title: {
-          userPreferred: "Noragami",
-        },
+        id: 100166,
+        title: { userPreferred: "Boku no Hero Academia 3" },
         characters: {
           nodes: [
             {
               image: {
                 large:
-                  "https://s4.anilist.co/file/anilistcdn/character/large/b84677-Vgd7MBg6EAzK.png",
+                  "https://s4.anilist.co/file/anilistcdn/character/large/b89220-AuWlCcZ8fy4l.png",
               },
             },
           ],
         },
-        genres: ["Action", "Adventure", "Comedy", "Supernatural"],
+        genres: ["Action", "Adventure", "Comedy"],
       },
     ],
   },
 };
-
-// export default
-module.exports = new Promise(function (resolve, reject) {
-  resolve(response);
-});
