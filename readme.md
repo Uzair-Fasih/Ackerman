@@ -17,8 +17,6 @@ An earlier version of this app is available as a release.
 
 A preview of this application build is below.
 
-<h5 align="center" >🚧 WORK IN PROGRESS 🚧</h5>
-
 <p align="center" >
 <img src="./static/Ackerman-Demo.gif" alt="Ackerman V2 Demo" />
 </p>
@@ -31,4 +29,3 @@ The app has been tested on Android 9 (_Android Pie_) and above, but should work 
 
 The releases for the application can be found [here](https://github.com/Uzair-Fasih/Ackerman/releases).
 
-<b>_This page is being updated. Please try looking here later_</b>
